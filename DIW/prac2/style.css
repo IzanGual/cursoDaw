@@ -1,0 +1,124 @@
+body
+{
+font-family: Arial, Helvetica, sans-serif;
+margin: 30px;
+}
+
+#divp1 {
+    text-align: justify;
+    
+}
+
+.spain {
+    background: yellow;
+    color: red;
+    text-align: justify;
+}
+
+.blue {
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+#divp2 {
+    margin: 40px;
+    font-size: small;
+    
+}
+
+#divp3 {
+    background: green;
+    color: yellow;
+    text-align: right;
+    text-decoration: underline;
+    font-size: small;
+    line-height: 2;
+    text-align: right;
+    margin-right: 130px;
+    margin-bottom: 80px;
+}
+
+#divp4 {
+    background: pink;
+    font-style: italic;
+    font-size: small;
+    padding: 25px;
+    border-style: dotted;
+    border-color: blue;
+
+
+}
+#divp5 {
+    background: cyan;
+    font-size: 10px;
+    padding: 20px;
+    border-style: solid;
+    border-color: green;
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 400px;
+}
+
+#divp6 {
+   
+    font-size: small;
+    padding: 10px;
+    border-style: double;
+    border-color: red;
+    margin-top: 20px;
+    margin-right: 300px;
+   
+}
+
+.red {
+    font-weight: bold;
+    color: red;
+}
+
+#divp7 {
+    margin-top: 100px;
+    background: yellow;
+    text-align: center;
+    font-size: small;
+    padding: 30px;
+    border-style: solid;
+    border-color: red;
+}
+
+#divp8 {
+    margin-top: 30px;
+    background: rgb(238, 238, 238);
+    text-align: right;
+    font-size: small;
+    border-style: solid;
+    border-color: red;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+#divp9 {
+    color: white;
+    padding: 15px;
+    width: 120px;
+    margin-top: 30px;
+    background: blue;
+    text-align: justify;
+    font-size: small;
+    margin-right: 50px;
+}
+
+#divp10 {
+    border-style: double;
+    border-color: red;
+    color: white;
+    width: 700px;
+    margin-top: 30px;
+    background: rgb(255, 130, 84);
+    text-align: justify;
+    font-size: small;
+    margin-left: 200px;
+}
+
+

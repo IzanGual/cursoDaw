@@ -1,0 +1,50 @@
+th, td, table {
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+    width: 800px;
+    height: 400px;
+}
+
+td, th {
+    width: auto;
+    height: auto;
+}
+table {
+    background-color: #EAD8B1;
+}
+
+.cliente {
+    background-color: #F5F5F5;
+}
+
+.diw {
+    background-color: #FFDC7F;
+}
+
+.eie {
+    border: none;
+}
+
+.daw {
+    background-color: #48CFCB;
+}
+
+.server {
+    background-color:#229799 ;
+}
+
+.ing{
+    background-color: darkkhaki;
+}
+
+.verde 
+{
+    background-color: #001F3F;
+    color: #F5F5F5;
+}
+
+.h {
+    background-color: #3A6D8C;
+    color: #F5F5F5;
+}

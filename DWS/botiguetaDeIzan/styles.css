@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+  }
+
+  #wrapper {
+    width: 80%;
+    margin: auto;
+    padding: 2% 0;
+    border-radius: 15px;
+    background-color: #f0f4f8;
+
+  }
+
+  h1, h2 {
+    text-align: center;
+    color: #000;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+
+  table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: auto;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #0a9396;
+  }
+
+  th {
+    background-color: #0a9396;
+    color: #fff;
+  }
+
+  td {
+    background-color: #fff;
+    color: #000;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  input[type="text"], input[type="number"] {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #0a9396;
+    border-radius: 5px;
+    width: 80%;
+  }
+
+  /* Para los botones */
+  button {
+    background-color: #007b94;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #0a9396; /* Color de hover para botones */
+  }
+
+  .boton-eliminar {
+    background-color: #ae2012; /* Color para botones de eliminar */
+  }
+
+  .boton-eliminar:hover {
+    background-color: darkred; /* Cambia a un rojo más oscuro en hover */
+  }
+
+  p {
+    text-align: center;
+    color: #000; /* Texto negro */
+    margin: 10px 0;
+  }
+
+  /* Estilo para los mensajes de error */
+  .advertencia {
+    color: red; /* Color rojo para advertencias */
+    font-weight: bold;
+    text-align: center;
+  }
+

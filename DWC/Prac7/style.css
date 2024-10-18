@@ -1,0 +1,30 @@
+header {
+background-color: rgb(119, 84, 84);
+border-radius: 7px;
+}
+
+nav {
+    background-color: rgb(119, 84, 84);
+    border-radius: 7px;
+    }
+div {
+        background-color: rgb(119, 84, 84);
+        border-radius: 7px;
+}
+button {
+    font-weight: bold;
+    width: 5%;
+    height: 40px;
+    border-radius: 10%;
+}
+p {
+    color: white;
+}
+
+#siguiente {
+    width: 25%;
+    height: auto;
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+}

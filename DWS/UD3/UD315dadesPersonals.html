@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducció de Dades Personals</title>
+    <style>
+        form {
+            margin: 20px;
+        }
+        label, input {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], input[type="email"], input[type="date"], input[type="tel"] {
+            margin-top: 3px;
+        }
+        input[type="submit"] {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Introducció de Dades Personals</h1>
+    <form action="UD315dadesPersonals.php" method="POST">
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="cognoms">Cognoms:</label>
+        <input type="text" id="cognoms" name="cognoms" required>
+
+        <label for="data_naixement">Data de naixement:</label>
+        <input type="date" id="data_naixement" name="data_naixement" required>
+
+        <label for="correu">Correu electrònic:</label>
+        <input type="email" id="correu" name="correu" required>
+
+        <label for="telefon">Telèfon:</label>
+        <input type="tel" id="telefon" name="telefon" placeholder="+34 600 000 000" required>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

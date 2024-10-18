@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>snakeIzan</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <!-- 
+    <video autoplay muted loop id="bgVideo">
+      <source src="fondo.mp4" type="video/mp4">
+    </video>
+    -->
+   <div id="wrapper">
+    
+      <header id="header">
+        <h1>SnakeIzan</h1>
+        <img src="pingo.png" id="snakeFoto">
+        <img src="image.png" id="snakeFoto">
+      </header>
+
+      <nav id="nav">
+
+        <h2>Dificultad: </h2>
+        <button class="botonNav" id="dif1">NOOB</button>
+        <button class="botonNav" id="dif2">PRO</button>
+        <button class="botonNav" id="dif3">LEGEND</button>
+
+        <div id="separador">
+          
+        </div>
+
+        <h2>Tamaño: </h2>
+        <button class="botonNav" id="tam1">8 X 8</button>
+        <button class="botonNav" id="tam2">10 X 10</button>
+        <button class="botonNav" id="tam3">15 X 15</button>
+
+        <div id="separador">
+          
+        </div>
+
+        <button class="botonNav" id="start">start</button>
+        <button class="botonNav" id="stop">stop</button>
+        <button class="botonNav" id="restart">restart</button>
+
+      </nav>
+
+      <main id="mainContainer">
+
+          <aside id="asideIzq">
+            
+
+            <h2>RECORD</h2>
+            <p id="record" class="negro"></p>
+
+           
+
+          </aside>
+      
+          <div id="tableContainer">
+
+            <img src="gameOver.gif" id="fotoGameOver">
+
+            <table id="table">
+                  
+            </table>
+                
+          </div>
+          
+          <aside id="asideDer">
+            <h2>PUNTUACIÓN</h2>
+            <p id="scoreActual" class="negro"></p>
+
+            <h2>NIVEL</h2>
+            <p id="level" class="negro"></p>
+            
+            <div id="contEstilos">
+              <h2>MODO OSCURO</h2>
+            
+              <label class="switch">
+                <input type="checkbox" id="modoOscuro">
+                <span class="slider round"></span>
+              </label>
+           
+              
+            </div>
+            <div id="contBotones">
+              <button class="botonDireccion" id="arr">▲</button>
+              <button class="botonDireccion" id="izq">◄</button>
+              <button class="botonDireccion" id="aba">▼</button>
+              <button class="botonDireccion" id="der">►</button>
+              
+            </div>
+            
+
+          </aside>
+          
+          
+      </main>
+
+      
+
+
+   </div> 
+
+    <script src="snake.js"></script>
+  
+  </body>
+</html>

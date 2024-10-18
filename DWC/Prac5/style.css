@@ -1,0 +1,78 @@
+
+img {
+    position: absolute;
+}
+#contenedor {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+
+body {
+    background-color: darkcyan; 
+}
+
+#cont {
+    display: grid;
+    gap: 10px;
+    position: absolute; 
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 5px;
+    background-color: rgb(0, 67, 83);
+  }
+  
+  #arr {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  
+  #izq {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  
+  #aba {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+  
+  #der {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+
+  #k {
+    grid-column: 5 / 6;
+    grid-row: 2 / 3;
+  }
+  
+  button {
+    width: 100%;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  #k:hover {
+    background-color: red;
+  }
+
+  #arr:hover {
+    background-color:darkgrey
+  }
+  
+  #izq:hover {
+    background-color:darkgrey
+  }
+  
+  #aba:hover {
+    background-color:darkgrey
+  }
+  
+  #der:hover {
+    background-color:darkgrey
+  }
+  

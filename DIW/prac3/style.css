@@ -1,0 +1,61 @@
+#divp1 {
+    margin: 5%;
+    height: 100px;
+    margin-bottom: 10%;
+    
+}
+#divp2 {
+    clear: right;
+    float: right;
+    width: 50%;
+    height: 900px;
+
+}
+
+img {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+#p1 {
+   
+    margin: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(167, 167, 167);
+
+}
+
+h1 {
+    
+    margin: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+
+}
+#p2 {
+    margin: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(167, 167, 167);
+    
+}
+
+#divTexto {
+    clear: left;
+    float: left;
+    width: 50%;
+    height: 900px;
+}
+
+#div2 {
+   
+    line-height: 20px;
+    border-top: 2px solid black;
+    margin: 5%;
+
+
+}
+
+

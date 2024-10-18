@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bombetes</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>  
+  
+    <header>
+      <h2>Estado:</h2>
+      <p>Seguiente</p>
+      <p id="siguiente"></p>
+      <p>Lista de espera</p>
+      <p id="listaEspera"></p>
+      <button onclick="sig()">Siguiente</button>
+    </header>
+
+    <nav>
+      <h2>Llegadas</h2>
+      <p>Nombre:</p>
+      <input type="text" id="nombre"/>
+
+      <p>Apellido:</p>
+      <input type="text" id="apellido"/>
+
+      <p>Maxima prioridad</p>
+      <input type="checkbox" id="checkbox"/>
+
+      <button onclick="arrivada()">Registrar</button>
+        
+
+    </nav>
+
+    <div>
+      <h2>Consultar</h2>
+      <p>Nombre:</p>
+      <input type="text" id="nombreC">
+
+      <p>Apellido:</p>
+      <input type="text" id="apellidoC">
+
+      <button onclick="consultar()">Consultar</button>
+
+    </div>
+    
+    
+	<script src="index.js"></script>
+  
+
+  </body>
+</html>
+
+
+
+
